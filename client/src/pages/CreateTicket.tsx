@@ -16,7 +16,7 @@ const CreateTicket = () => {
       assignedUser: null
     }
   );
-
+ 
   const navigate = useNavigate();
 
   const [users, setUsers] = useState<UserData[] | undefined>([]);
