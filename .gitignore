@@ -9,6 +9,14 @@ lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+# Ignore .env files
+.env.*
+
+# Ignore dist directory
+dist/
+
+# Ignore node_modules directory
+node_modules/
 
 # Runtime data
 pids
