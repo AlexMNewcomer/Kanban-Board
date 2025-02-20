@@ -24,3 +24,19 @@ export const authenticateToken = (req: Request, res: Response, next: NextFunctio
 
   return; // Ensure all code paths return a value
 };
+
+
+class AuthService {
+
+  static loggedIn() {
+
+    // Implement your logic here
+
+    return true; // Example implementation
+
+  }
+
+}
+
+
+export default AuthService;

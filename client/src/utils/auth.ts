@@ -29,11 +29,11 @@ class AuthService {
   }
 
   login(idToken: string) {
-    // TODO: set the token to localStorage
-    localStorage.setItem('id_token', idToken);
-    // TODO: redirect to the home page
-    window.location.assign('/');
-  }
+    console.log("Logging in, token:", idToken);
+    localStorage.setItem("id_token", idToken);
+    console.log("Token saved:", localStorage.getItem("id_token")); // Check if token is stored
+    window.location.assign("/"); // Redirect
+  }  
 
   logout() {
     // TODO: remove the token from localStorage
